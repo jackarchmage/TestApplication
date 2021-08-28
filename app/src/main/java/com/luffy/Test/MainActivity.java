@@ -65,6 +65,7 @@ public class MainActivity extends AppCompatActivity {
     private void calculate(int f1,int s1) {
         total = f1+s1;
         result.setText(String.valueOf(total));
+        Toast.makeText(getApplicationContext(), "This is a toast", Toast.LENGTH_SHORT).show();
     }
 
 
